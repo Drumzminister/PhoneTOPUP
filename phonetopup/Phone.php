@@ -4,13 +4,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Phone</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     <div class="content">
         <div class="header">
-            <img src="ham.png" alt="Hamburger" width="40" height="20">
+            <img src="images/ham.png" alt="Hamburger" width="40" height="20">
             <h5>Phone Top up</h5>
             <input type="search" name="search" id="search" placeholder="Search">
         </div>
@@ -20,7 +20,36 @@
                 <h5>Balance</h5>
                 <span class="box">
                         <p>Available <br>in Wallet<br>
-                        <strong>N1,000,000</strong></p>
+                        <strong>
+                            <?php
+                                  $curl = curl_init();
+
+                                  curl_setopt_array($curl, array(
+                                    CURLOPT_URL => "https://mobileairtimeng.com/httpapi/balance.php?userid=%2008189115870&pass=dbcc49ee2fba9f150c5e82",
+                                    CURLOPT_RETURNTRANSFER => true,
+                                    CURLOPT_ENCODING => "",
+                                    CURLOPT_MAXREDIRS => 10,
+                                    CURLOPT_TIMEOUT => 30,
+                                    CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+                                    CURLOPT_CUSTOMREQUEST => "GET",
+                                    CURLOPT_HTTPHEADER => array(
+                                      "cache-control: no-cache",
+                                      "postman-token: 28c061c4-a48c-629f-3aa2-3e4cad0641ff"
+                                    ),
+                                  ));
+
+                                  $response = curl_exec($curl);
+                                  $err = curl_error($curl);
+
+                                  curl_close($curl);
+
+                                  if ($err) {
+                                    echo "cURL Error #:" . $err;
+                                  } else {
+                                    echo $response;
+                                  }
+                            ?>
+                            </strong></p>
                 </span>
             </div>
 
@@ -28,13 +57,15 @@
                     <h5>Refill Topup Wallet</h5>
                     <p>Select Amount</p>
                     <div class="button">
-                        <input type="button" value="&nbsp N500">
-                        <input type="button" value="N1,000">
-                        <input type="button" value="N2,000">
-                        <br>
-                        <input type="button" value="N3,000">
-                        <input type="button" value="N4,000">
-                        <input type="button" value="N5,000">
+                         <form>
+                            <button class="submit-amount" type="button" data-amount="500" value="500" id="submit">&nbsp; N500</button>
+                            <input type="button" value="N1,000">
+                            <input type="button" value="N2,000">
+                            <br>
+                            <input type="button" value="N3,000">
+                            <input type="button" value="N4,000">
+                            <input type="button" value="N5,000">
+                        </form>
                     </div>
             </div>
             
@@ -43,13 +74,13 @@
                     <h5>Top Up Prepaid Mobile Phone</h5>
                     <div class="details">
                         <h6>Select Items</h6>
-                        <img src="call.png" alt="call icon"><br><br><hr>
+                        <img src="images/call.png" alt="call icon"><br><br><hr>
                         <p>Chef's Phone - <strong>417-873-60000</strong> </p>
                         <button class="history">Transaction History</button>
 
                             <div class="selectamount">
                                 <span class="selecttopup"><h6>Select Amount</h6>
-                                    <img src="naira.png" alt="naira" width="25px" height="25px" >
+                                    <img src="images/naira.png" alt="naira" width="25px" height="25px" >
                                 </span>
 
                                 <span class="reach">
@@ -79,10 +110,10 @@
                     <div class="details2">
                         <h6>TopUp Data Plans</h6><hr>
                         <ul>
-                            <li> <button><img src="1.png" width="40" height="40" alt="9mobile"> </button></li> 
-                            <li> <button><img src="2.png" width="40" height="40" alt="mtn"> </button></li> 
-                            <li> <button><img src="3.png" width="40" height="40" alt="airtel"></button> </li> 
-                            <li> <button><img src="4.png" width="40" height="40" alt="glo"> </button></li> <hr>
+                            <li> <button><img src="images/1.png" width="40" height="40" alt="9mobile"> </button></li> 
+                            <li> <button><img src="images/2.png" width="40" height="40" alt="mtn"> </button></li> 
+                            <li> <button><img src="images/3.png" width="40" height="40" alt="airtel"></button> </li> 
+                            <li> <button><img src="images/4.png" width="40" height="40" alt="glo"> </button></li> <hr>
                         </ul>
                         <span class="data">
                            <button>1.5Gb <br> 30days<br> <strong>N1,000</strong></button>
@@ -99,5 +130,11 @@
                     <input type="button" value="TOP ALL">
             </div>
     </div>
+     <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="http://flw-pms-dev.eu-west-1.elasticbeanstalk.com/flwv3-pug/getpaidx/api/flwpbf-inline.js"></script>
+    <script type="text/javascript" src="wallet.js"></script>
 </body>
 </html>
