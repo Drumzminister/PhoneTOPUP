@@ -84,13 +84,14 @@
                                 </span>
 
                                 <span class="reach">
-                                    <button>&nbsp N500</button>
-                                    <button>N1000</button>
-                                    <button>N2000</button>
-                                    <br>
-                                    <button>N3000</button>
-                                    <button>N4000</button>
-                                    <button>N5000</button>
+                                    <form action="script.php" method="GET">
+                                            <input type="submit" name="test" id="test" value="500"/>
+                                            <input type="submit" name="test" id="test" value="1000"/>
+                                            <input type="submit" name="test" id="test" value="2000"/>
+                                            <input type="submit" name="test" id="test" value="3000"/>
+                                            <input type="submit" name="test" id="test" value="4000"/>
+                                            <input type="submit" name="test" id="test" value="5000"/>
+                                     </form>
                                 </span>
                                
                             </div>
@@ -117,12 +118,12 @@
                         </ul>
                         <span class="data">
                            <button>1.5Gb <br> 30days<br> <strong>N1,000</strong></button>
-                           <button>1.5Gb <br> 30days<br> <strong>N1,000</strong> </button>
-                           <button>1.5Gb <br> 30days<br> <strong>N1,000</strong> </button>
+                           <button>1.5Gb <br> 30days<br> <strong>N2,000</strong> </button>
+                           <button>1.5Gb <br> 30days<br> <strong>N3,000</strong> </button>
                            <br>
-                          <button>1.5Gb <br> 30days<br> <strong>N1,000</strong> </button>
-                           <button>1.5Gb <br> 30days<br> <strong>N1,000</strong> </button>
-                           <button>1.5Gb <br> 30days<br> <strong>N1,000</strong> </button>
+                          <button>1.5Gb <br> 30days<br> <strong>N4,000</strong> </button>
+                           <button>1.5Gb <br> 30days<br> <strong>N5,000</strong> </button>
+                           <button>1.5Gb <br> 30days<br> <strong>N6,000</strong> </button>
                         </span>
                         
                     </div>

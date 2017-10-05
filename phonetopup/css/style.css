@@ -255,6 +255,17 @@ body{
     width:65px;
     box-shadow: 0 2px  #424040;
 }
+.reach input{
+    margin:8px;
+    margin-top:15px;
+    background: white;
+    border-radius: 9px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    height: 35px;
+    width:65px;
+    box-shadow: 0 2px  #424040;
+}
 .numbers{
     position: absolute;
     width:100%;
@@ -315,7 +326,7 @@ body{
     border-bottom: 3px solid #F76126;
 }
 /* ======= Top All button======= */
-.thirdblock input{
+.thirdblock>input{
     position: absolute;
     bottom:30px;
     right:40px;
