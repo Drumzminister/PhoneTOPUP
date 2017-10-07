@@ -134,7 +134,7 @@ body{
     margin: 0 auto;
     margin-top:50px;
 }
-.button input{
+.submit-amount{
     border-radius: 10px;
     width:100px;
     padding:5px 10px;
