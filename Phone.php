@@ -110,12 +110,12 @@
                         <span class="data">
                             <form action="datascript.php" method="POST">
                                <button type="submit" name="data1000" id="data1000"  value="1000">1.5Gb <br> 30days<br> <strong>N1,000</strong></button>
-                               <button type="submit" name="data2000" id="data2000"  value="2000">1.5Gb <br> 30days<br> <strong>N2,000</strong> </button>
-                               <button "type="submit" name="data3000" id="data3000"  value="3000">1.5Gb <br> 30days<br> <strong>N3,000</strong> </button>
+                               <button type="submit" name="data2000" id="data2000"  value="2000">3.5Gb <br> 30days<br> <strong>N2,000</strong> </button>
+                               <button type="submit" name="data3000" id="data3000"  value="3000">5Gb <br> 30days<br> <strong>N2,500</strong> </button>
                                <br>
-                               <button type="submit" name="data4000" id="data4000"  value="4000">1.5Gb <br> 30days<br> <strong>N4,000</strong> </button>
-                               <button type="submit" name="data5000" id="data5000"  value="5000">1.5Gb <br> 30days<br> <strong>N5,000</strong> </button>
-                               <button type="submit" name="data6000" id="data6000"  value="6000">1.5Gb <br> 30days<br> <strong>N6,000</strong> </button>
+                               <button type="submit" name="data4000" id="data4000"  value="4000">7Gb <br> 30days<br> <strong>N3,500</strong> </button>
+                               <button type="submit" name="data5000" id="data5000"  value="5000">9Gb <br> 30days<br> <strong>N4,000</strong> </button>
+                               <button type="submit" name="data6000" id="data6000"  value="6000">10Gb <br> 30days<br> <strong>N5,000</strong> </button>
                             </form>
                            
                         </span>
