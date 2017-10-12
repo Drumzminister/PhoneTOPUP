@@ -16,8 +16,7 @@
             <input type="search" name="search" id="search" placeholder="Search">
         </div>
         <div class="row">
-        <div class="col-lg-2"></div>
-        <div class="col-lg-10">
+        <div class="col-lg-12">
         <div class="content_two">
         <div class="row">
         <div class="col-md-6" align="center" >
