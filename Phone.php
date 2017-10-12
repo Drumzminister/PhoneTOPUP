@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Phone</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
@@ -66,15 +67,27 @@
             <div class="thirdblock">
                     <h5>Top Up Prepaid Mobile Phone</h5>
                     <div class="details">
-                        <h6>Select Items</h6>
-                        <img src="images/call.png" alt="call icon"><br><br><hr>
-                        <p>Chef's Phone - <strong>417-873-60000</strong> </p>
+                       <div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+        Chef's Phone </a>
+      </h4>
+    </div>
+    <div id="collapse1" class="panel-collapse collapse in">
+      <div class="panel-body">
+      <div class="row" >
+      <div class="col-md-6">
+      <p>Chef's Phone - <strong>417-873-60000</strong> </p>
                         <button class="history">Transaction History</button>
-                            <div class="selectamount">
-                                <span class="selecttopup"><h6>Select Amount</h6>
-                                    <img src="images/naira.png" alt="naira" width="25px" height="25px" >
-                                </span>
-                                <span class="reach">
+      </div>
+       <div class="col-md-6"> 
+       <div class="selectamount">
+                                <div class="selecttopup"><h6>Select Amount <img src="images/naira.png" alt="naira" width="25px" height="25px" ></h6>
+                                    
+                                </div>
+                                <div class="reach">
                                     <form action="script.php" method="POST">
                                             <input type="submit" name="load500" id="load500"  value="500"/>
                                             <input type="submit" name="load1000" id="load1000" value="1000"/>
@@ -83,19 +96,203 @@
                                             <input type="submit" name="load4000" id="load4000" value="4000"/>
                                             <input type="submit" name="load5000" id="load5000 " value="5000"/>                                            
                                     </form>
-                                </span>
+                                </div>
                                
                             </div>
-                            <br><br><br><br><br><br><br><br><br><br><br><hr>
-                            <div class="numbers">
-                                <ul>
-                                    <li>CTO's Phone</li> <hr>
-                                    <li>HRM's Phone</li> <hr>
-                                    <li>MD's Phone</li> <hr>
-                                    <li>CSO's Phone</li> <hr>
-                                    <li>DOCTOR's Phone</li> 
-                                </ul>
+       </div>
+      </div>
+                        
+                            
+
+      
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+        CTO's Phone</a>
+      </h4>
+    </div>
+    <div id="collapse2" class="panel-collapse collapse">
+      <div class="panel-body">
+       <div class="row" >
+      <div class="col-md-6">
+      <p>CTO's Phone - <strong>417-873-60000</strong> </p>
+                        <button class="history">Transaction History</button>
+      </div>
+       <div class="col-md-6"> 
+       <div class="selectamount">
+                                <div class="selecttopup"><h6>Select Amount <img src="images/naira.png" alt="naira" width="25px" height="25px" ></h6>
+                                    
+                                </div>
+                                <div class="reach">
+                                    <form action="script.php" method="POST">
+                                            <input type="submit" name="load500" id="load500"  value="500"/>
+                                            <input type="submit" name="load1000" id="load1000" value="1000"/>
+                                            <input type="submit" name="load2000" id="load2000" value="2000"/>
+                                            <input type="submit" name="load3000" id="load3000" value="3000"/>
+                                            <input type="submit" name="load4000" id="load4000" value="4000"/>
+                                            <input type="submit" name="load5000" id="load5000 " value="5000"/>                                            
+                                    </form>
+                                </div>
+                               
                             </div>
+       </div>
+      </div>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+        HRM's Phone</a>
+      </h4>
+    </div>
+    <div id="collapse3" class="panel-collapse collapse">
+      <div class="panel-body">
+      <div class="row" >
+      <div class="col-md-6">
+      <p>HRM's Phone - <strong>417-873-60000</strong> </p>
+                        <button class="history">Transaction History</button>
+      </div>
+       <div class="col-md-6"> 
+       <div class="selectamount">
+                                <div class="selecttopup"><h6>Select Amount <img src="images/naira.png" alt="naira" width="25px" height="25px" ></h6>
+                                    
+                                </div>
+                                <div class="reach">
+                                    <form action="script.php" method="POST">
+                                            <input type="submit" name="load500" id="load500"  value="500"/>
+                                            <input type="submit" name="load1000" id="load1000" value="1000"/>
+                                            <input type="submit" name="load2000" id="load2000" value="2000"/>
+                                            <input type="submit" name="load3000" id="load3000" value="3000"/>
+                                            <input type="submit" name="load4000" id="load4000" value="4000"/>
+                                            <input type="submit" name="load5000" id="load5000 " value="5000"/>                                            
+                                    </form>
+                                </div>
+                               
+                            </div>
+       </div>
+      </div>
+      </div>
+      
+    </div>
+  </div>
+   <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+        MD's Phone</a>
+      </h4>
+    </div>
+    <div id="collapse4" class="panel-collapse collapse">
+      <div class="panel-body">
+      <div class="row" >
+      <div class="col-md-6">
+      <p>MD's Phone - <strong>417-873-60000</strong> </p>
+                        <button class="history">Transaction History</button>
+      </div>
+       <div class="col-md-6"> 
+       <div class="selectamount">
+                                <div class="selecttopup"><h6>Select Amount <img src="images/naira.png" alt="naira" width="25px" height="25px" ></h6>
+                                    
+                                </div>
+                                <div class="reach">
+                                    <form action="script.php" method="POST">
+                                            <input type="submit" name="load500" id="load500"  value="500"/>
+                                            <input type="submit" name="load1000" id="load1000" value="1000"/>
+                                            <input type="submit" name="load2000" id="load2000" value="2000"/>
+                                            <input type="submit" name="load3000" id="load3000" value="3000"/>
+                                            <input type="submit" name="load4000" id="load4000" value="4000"/>
+                                            <input type="submit" name="load5000" id="load5000 " value="5000"/>                                            
+                                    </form>
+                                </div>
+                               
+                            </div>
+       </div>
+      </div>
+      </div>
+      
+    </div>
+  </div>
+   <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">
+        CSO's Phone</a>
+      </h4>
+    </div>
+    <div id="collapse5" class="panel-collapse collapse">
+      <div class="panel-body">
+      <div class="row" >
+      <div class="col-md-6">
+      <p>CSO's Phone - <strong>417-873-60000</strong> </p>
+                        <button class="history">Transaction History</button>
+      </div>
+       <div class="col-md-6"> 
+       <div class="selectamount">
+                                <div class="selecttopup"><h6>Select Amount <img src="images/naira.png" alt="naira" width="25px" height="25px" ></h6>
+                                    
+                                </div>
+                                <div class="reach">
+                                    <form action="script.php" method="POST">
+                                            <input type="submit" name="load500" id="load500"  value="500"/>
+                                            <input type="submit" name="load1000" id="load1000" value="1000"/>
+                                            <input type="submit" name="load2000" id="load2000" value="2000"/>
+                                            <input type="submit" name="load3000" id="load3000" value="3000"/>
+                                            <input type="submit" name="load4000" id="load4000" value="4000"/>
+                                            <input type="submit" name="load5000" id="load5000 " value="5000"/>                                            
+                                    </form>
+                                </div>
+                               
+                            </div>
+       </div>
+      </div>
+      </div>
+      
+    </div>
+  </div>
+   <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">
+        DOCTOR's Phone</a>
+      </h4>
+    </div>
+    <div id="collapse6" class="panel-collapse collapse">
+      <div class="panel-body">
+      <div class="row" >
+      <div class="col-md-6">
+      <p>DOCTOR's Phone - <strong>417-873-60000</strong> </p>
+                        <button class="history">Transaction History</button>
+      </div>
+       <div class="col-md-6"> 
+       <div class="selectamount">
+                                <div class="selecttopup"><h6>Select Amount <img src="images/naira.png" alt="naira" width="25px" height="25px" ></h6>
+                                    
+                                </div>
+                                <div class="reach">
+                                    <form action="script.php" method="POST">
+                                            <input type="submit" name="load500" id="load500"  value="500"/>
+                                            <input type="submit" name="load1000" id="load1000" value="1000"/>
+                                            <input type="submit" name="load2000" id="load2000" value="2000"/>
+                                            <input type="submit" name="load3000" id="load3000" value="3000"/>
+                                            <input type="submit" name="load4000" id="load4000" value="4000"/>
+                                            <input type="submit" name="load5000" id="load5000 " value="5000"/>                                            
+                                    </form>
+                                </div>
+                               
+                            </div>
+       </div>
+      </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
                            
                            
                     </div>
@@ -129,6 +326,7 @@
         src="https://code.jquery.com/jquery-3.2.1.min.js"
         integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
         crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script type="text/javascript" src="http://flw-pms-dev.eu-west-1.elasticbeanstalk.com/flwv3-pug/getpaidx/api/flwpbf-inline.js"></script>
     <script type="text/javascript" src="wallet.js"></script>
 </body>
