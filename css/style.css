@@ -133,30 +133,21 @@ body{
 /* =======orange background div ======= */
 
 .thirdblock{
-    position: relative;
     width:100%;
-    height: 600px;
     background:#39689C;
 }
 /* ======= Topup prepaid text======= */
 .thirdblock h5{
-    position: absolute;
-    top:20px;
-    left: 150px;
+   text-align:center;
     color:white;
     padding: 0;
     margin:0;
 }
 /* ========select numbers section ======= */
 .details{
-    position: absolute;
-    z-index: 1;
-    top:70px;
-    left:30px;
-    width:55%;
+	margin:10px;
     height:auto;
     background:white;
-    position: relative;
 }
 .details h6{
     
@@ -248,13 +239,11 @@ body{
 }
 /* ======= Top up data plan box======= */
 .details2{
-    position: absolute;
     z-index: 1;
-    top:70px;
-    right:50px;
-    width:30%;
-    height:400px;
     background:white;
+	width:70%;
+	margin-top:35px;
+	padding:10px;
 }
 .details2 h6{
     text-align: center;
@@ -283,10 +272,8 @@ body{
     border-bottom: 3px solid #39689C;
 }
 /* ======= Top All button======= */
-.thirdblock>input{
-    position: absolute;
-    bottom:30px;
-    right:40px;
+.topupbutton{
+    
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 100%;
     width:400px;
@@ -297,6 +284,7 @@ body{
     font-weight: 700;
     box-shadow: 0 3px  #424040;
     color:#39689C;
+	margin-left:8%;
 }
 
 .data button{

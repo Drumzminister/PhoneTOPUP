@@ -73,6 +73,8 @@
         </div>
         <br />
             <div class="thirdblock">
+            <div class="row">
+            <div class="col-lg-6">
                     <h5>Top Up Prepaid Mobile Phone</h5>
                     <div class="details">
                        <div class="panel-group" id="accordion">
@@ -304,6 +306,8 @@
                            
                            
                     </div>
+                    </div>
+                    <div class="col-lg-6" align="center">
                     <div class="details2">
                         <h6>TopUp Data Plans</h6><hr>
                         <ul>
@@ -312,7 +316,7 @@
                             <li> <button><img src="images/3.png" width="40" height="40" alt="airtel"></button> </li> 
                             <li> <button><img src="images/4.png" width="40" height="40" alt="glo"> </button></li> <hr>
                         </ul>
-                        <span class="data">
+                        <div class="data">
                             <form action="datascript.php" method="POST">
                                <button type="submit" name="data1000" id="data1000"  value="1000">1.5Gb <br> 30days<br> <strong>N1,000</strong></button>
                                <button type="submit" name="data2000" id="data2000"  value="2000">3.5Gb <br> 30days<br> <strong>N2,000</strong> </button>
@@ -323,13 +327,18 @@
                                <button type="submit" name="data6000" id="data6000"  value="6000">10Gb <br> 30days<br> <strong>N5,000</strong> </button>
                             </form>
                            
-                        </span>
+                        </div>
                         
                     </div>
                      
-                    <input type="button" value="TOP ALL">
+                    <input type="button" class="topupbutton" value="TOP ALL">
             </div>
             </div>
+            </div>
+            
+            
+           </div>
+           
             </div>
     </div>
      <script
