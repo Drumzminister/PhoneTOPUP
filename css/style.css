@@ -7,19 +7,17 @@ body{
 }
 /* ======= full content div ======= */
 .content{
-    width:1340px;
+    width:100%;
     padding:0;
-    margin: 10px auto;;
+    margin:0;;
 }
 /* =======head bar======= */
 .header{
-    position: relative;
     background:#202A35;
     width:100%;
     height: 70px;
     margin:0 auto;
     padding:0;
-    border-top-right-radius: 15px;
     
 }
 /* =======hamburger image in header ======= */
@@ -57,22 +55,17 @@ body{
 .content_two{
     position:relative;
     width:100%;
-    height: 300px;
+    height: auto;
 }
  /* =======Balance Section======= */
 .balance{
     position: relative;
-    width:50%;
     display: block;
-    height:300px;
     border-right: 1px solid grey;
 }
 
 .balance h5{
-    position:relative;
-    margin:0px auto;
-    left:70px;
-    top:40px;
+	margin-top:15px;
     font-size:100%;
     display: block;
     color:grey;
@@ -83,9 +76,6 @@ body{
 }
  .box p{
     width:300px;
-    position: relative;
-    top: 100px;
-    left:120px;
     line-height: 1.5em;
     font-size: 90%;
     padding:10px;
@@ -93,6 +83,7 @@ body{
     font-weight:bolder;
     border-radius: 20px;
     border: 1px solid grey;
+	margin-left:30%;
 }
 .box strong{
     line-height: 2em;
@@ -103,16 +94,10 @@ body{
 .wallet{
     position: relative;
     z-index: 2;
-    width:50%;
     display: block;
-    margin-left:600px;
-    margin-top:-300px;
-    height:300px;
 }
 .wallet h5{
-    margin:0px auto;
-    margin-left:130px;
-    margin-top:40px;
+    margin-top:15px;
     font-size:100%;
     display: block;
     color:grey;
@@ -120,11 +105,12 @@ body{
 }
 .wallet p{
     position: relative;
-    top:40px;
     text-align:center;
     line-height: 1.5em;
     font-size: 90%;
     color:#39689C;
+	margin-left:-10%;
+	
 }
 /* =======Wallet Buttons ======= */
 .button{
@@ -132,12 +118,12 @@ body{
     text-align: center;
     width:450px;
     margin: 0 auto;
-    margin-top:50px;
+   
 }
 .submit-amount{
     border-radius: 10px;
     width:100px;
-    padding:5px 10px;
+    padding:5px;
     margin:10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bolder;

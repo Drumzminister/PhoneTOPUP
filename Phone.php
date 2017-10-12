@@ -16,9 +16,11 @@
             <input type="search" name="search" id="search" placeholder="Search">
         </div>
         <div class="content_two">
-            <div class="balance">
+        <div class="row">
+        <div class="col-md-6" align="center" >
+            <div class="balance"align="center"  >
                 <h5>Balance</h5>
-                <span class="box">
+                <div class="box" align="center">
                         <p>Available <br>in Wallet<br>
                         <strong>
                             <?php
@@ -46,12 +48,14 @@
                                   }
                             ?>
                             </strong></p>
-                </span>
+                </div>
             </div>
+            </div>
+            <div class="col-md-6" align="center">
             <div class="wallet">
                     <h5>Refill Topup Wallet</h5>
                     <p>Select Amount</p>
-                    <div class="button">
+                    <div class="button" align="center">
                          <form>
                             <button class="submit-amount" type="button" data-amount="500" value="500" id="submit">&nbsp; N500</button>
                             <button class="submit-amount" type="button" data-amount="1000" value="1000" id="submit">&nbsp; N1000</button>
@@ -62,8 +66,10 @@
                         </form>
                     </div>
             </div>
-            
+            </div>
+            </div>
         </div>
+        <br />
             <div class="thirdblock">
                     <h5>Top Up Prepaid Mobile Phone</h5>
                     <div class="details">
