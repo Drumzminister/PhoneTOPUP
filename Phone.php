@@ -93,7 +93,7 @@
       <div class="row" >
       <div class="col-md-6">
       <p>Chef's Phone - <strong>417-873-60000</strong> </p>
-                        <button class="history">Transaction History</button>
+                        <button type="button" class="history" data-toggle="modal" data-target="#myModal">Transaction History</button>
       </div>
        <div class="col-md-6"> 
        <div class="selectamount">
@@ -133,7 +133,7 @@
        <div class="row" >
       <div class="col-md-6">
       <p>CTO's Phone - <strong>417-873-60000</strong> </p>
-                        <button class="history">Transaction History</button>
+                        <button type="button" class="history" data-toggle="modal" data-target="#myModal">Transaction History</button>
       </div>
        <div class="col-md-6"> 
        <div class="selectamount">
@@ -169,7 +169,7 @@
       <div class="row" >
       <div class="col-md-6">
       <p>HRM's Phone - <strong>417-873-60000</strong> </p>
-                        <button class="history">Transaction History</button>
+                        <button type="button" class="history" data-toggle="modal" data-target="#myModal">Transaction History</button>
       </div>
        <div class="col-md-6"> 
        <div class="selectamount">
@@ -206,7 +206,7 @@
       <div class="row" >
       <div class="col-md-6">
       <p>MD's Phone - <strong>417-873-60000</strong> </p>
-                        <button class="history">Transaction History</button>
+                        <button type="button" class="history" data-toggle="modal" data-target="#myModal">Transaction History</button>
       </div>
        <div class="col-md-6"> 
        <div class="selectamount">
@@ -243,7 +243,7 @@
       <div class="row" >
       <div class="col-md-6">
       <p>CSO's Phone - <strong>417-873-60000</strong> </p>
-                        <button class="history">Transaction History</button>
+                        <button type="button" class="history" data-toggle="modal" data-target="#myModal">Transaction History</button>
       </div>
        <div class="col-md-6"> 
        <div class="selectamount">
@@ -280,7 +280,7 @@
       <div class="row" >
       <div class="col-md-6">
       <p>DOCTOR's Phone - <strong>417-873-60000</strong> </p>
-                        <button class="history">Transaction History</button>
+                        <button type="button" class="history" data-toggle="modal" data-target="#myModal">Transaction History</button>
       </div>
        <div class="col-md-6"> 
        <div class="selectamount">
@@ -393,6 +393,67 @@
            
             </div>
     </div>
+    <section>
+    <div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-lg">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Transaction History</h4>
+      </div>
+      <div class="modal-body" >
+        <div align="center" >
+  <a href="#" data-toggle="popover" title="Popover Header" data-content="Some content inside the popover"></a>
+<table class="table table-size table-striped">
+  <tr>
+    <th class="modal-table">This Week - September, 2017</th>
+    <th class="modal-table">Number Approved by: Admin</th>
+  </tr>
+  <tr>
+    <td class="modal-table">Thursday    9:39pm</td>
+    <td class="modal-table">Phone Topup (N2000)</td>
+   </tr>
+  <tr>
+    <td class="modal-table">Tuesday 10:05pm </td>
+    <td class="modal-table">Data Topup (1.5GB - N1000) 30days</td>
+  </tr>
+  <tr>
+    <td class="modal-table">Tuesday 9:39am  </td>
+    <td class="modal-table">Phone Topup (N1000)</td>
+  </tr>
+  <tr>
+    <th class="modal-table" colspan="2">Previous Weeks - September, 2017</th>
+  </tr>
+  <tr>
+    <td class="modal-table">Thursday    9:39pm</td>
+    <td class="modal-table">Phone Topup (N2000)</td>
+  </tr>
+  <tr>
+    <td class="modal-table">Tuesday 10:05pm</td>
+    <td class="modal-table">Data Topup (1.5GB - N1000) 30days</td>
+  </tr>
+  <tr>
+    <td class="modal-table">Tuesday 9:39am </td>
+    <td class="modal-table">Phone Topup (N1000)</td>
+  </tr>
+  <tr>
+    <td class="modal-table">Thursday    9:39pm</td>
+    <td class="modal-table">Phone Topup (N1000)</td>
+  </tr>
+  <tr>
+    <td class="modal-table">Tuesday 10:05pm</td>
+    <td class="modal-table">Data Topup (1.5GB - N1000) 30days</td>
+  </tr>
+</table>
+</div>
+      </div>
+    </div>
+
+  </div>
+</div>
+    </section>
      <script
         src="https://code.jquery.com/jquery-3.2.1.min.js"
         integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
