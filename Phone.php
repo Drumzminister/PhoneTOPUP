@@ -11,9 +11,12 @@
 <body>
     <div class="content">
         <div class="header">
-            <img src="images/ham.png" alt="Hamburger" width="40" height="20">
-            <h5>Phone Top up</h5>
+        <div class="row">
+            <div class="col-lg-5"><img src="images/ham.png" alt="Hamburger" width="40" height="20">
+            <h5>Phone Top up</h5></div><div class="col-lg-7">
             <input type="search" name="search" id="search" placeholder="Search">
+            </div>
+            </div>
         </div>
         <div class="row">
         <div class="col-lg-12">
@@ -310,12 +313,15 @@
                     <div class="col-lg-6" align="center">
                     <div class="details2">
                         <h6>TopUp Data Plans</h6><hr>
+                        <div class="panel-group" id="credit">
                         <ul>
-                            <li> <button><img src="images/1.png" width="40" height="40" alt="9mobile"> </button></li> 
-                            <li> <button><img src="images/2.png" width="40" height="40" alt="mtn"> </button></li> 
-                            <li> <button><img src="images/3.png" width="40" height="40" alt="airtel"></button> </li> 
-                            <li> <button><img src="images/4.png" width="40" height="40" alt="glo"> </button></li> <hr>
+                            <li> <button type="button"  data-parent="#credit" data-toggle="collapse" data-target="#9mobile"><img src="images/1.png" width="40" height="40" alt="9mobile"> </button></li> 
+                            <li> <button type="button" data-parent="#credit"  data-toggle="collapse" data-target="#mtn"><img src="images/2.png" width="40" height="40" alt="mtn"> </button></li> 
+                            <li> <button  type="button" data-parent="#credit" data-toggle="collapse" data-target="#airtel"><img src="images/3.png" width="40" height="40" alt="airtel"></button> </li> 
+                            <li> <button  type="button" data-parent="#credit" data-toggle="collapse" data-target="#glo"><img src="images/4.png" width="40" height="40" alt="glo"> </button></li> <hr>
                         </ul>
+                        <div id="9mobile" class=" panel-collapse collapse in" >
+                        <div class="panel">
                         <div class="data">
                             <form action="datascript.php" method="POST">
                                <button type="submit" name="data1000" id="data1000"  value="1000">1.5Gb <br> 30days<br> <strong>N1,000</strong></button>
@@ -326,13 +332,59 @@
                                <button type="submit" name="data5000" id="data5000"  value="5000">9Gb <br> 30days<br> <strong>N4,000</strong> </button>
                                <button type="submit" name="data6000" id="data6000"  value="6000">10Gb <br> 30days<br> <strong>N5,000</strong> </button>
                             </form>
-                           
+                           </div>
+                           </div>
                         </div>
-                        
+                        <div id="mtn" class="panel-collapse collapse" >
+                        <div class="data">
+                        <form action="datascript.php" method="POST">
+                               <button type="submit" name="data1000" id="data1000"  value="1000">1.5Gb <br> 30days<br> <strong>N1,000</strong></button>
+                               <button type="submit" name="data2000" id="data2000"  value="2000">3.5Gb <br> 30days<br> <strong>N2,000</strong> </button>
+                               <button type="submit" name="data3000" id="data3000"  value="3000">5Gb <br> 30days<br> <strong>N2,500</strong> </button>
+                               <br>
+                               <button type="submit" name="data4000" id="data4000"  value="4000">7Gb <br> 30days<br> <strong>N3,500</strong> </button>
+                               <button type="submit" name="data5000" id="data5000"  value="5000">9Gb <br> 30days<br> <strong>N4,000</strong> </button>
+                               <button type="submit" name="data6000" id="data6000"  value="6000">10Gb <br> 30days<br> <strong>N5,000</strong> </button>
+                            </form>
+                        </div>
+                        </div>
+                        <div id="airtel" class="panel-collapse collapse" >
+                        <div class="data">
+                       <form action="datascript.php" method="POST">
+                               <button type="submit" name="data1000" id="data1000"  value="1000">1.5Gb <br> 30days<br> <strong>N1,000</strong></button>
+                               <button type="submit" name="data2000" id="data2000"  value="2000">3.5Gb <br> 30days<br> <strong>N2,000</strong> </button>
+                               <button type="submit" name="data3000" id="data3000"  value="3000">5Gb <br> 30days<br> <strong>N2,500</strong> </button>
+                               <br>
+                               <button type="submit" name="data4000" id="data4000"  value="4000">7Gb <br> 30days<br> <strong>N3,500</strong> </button>
+                               <button type="submit" name="data5000" id="data5000"  value="5000">9Gb <br> 30days<br> <strong>N4,000</strong> </button>
+                               <button type="submit" name="data6000" id="data6000"  value="6000">10Gb <br> 30days<br> <strong>N5,000</strong> </button>
+                            </form>
+                        </div>
+                        </div>
+                        <div id="glo" class="panel-collapse collapse" >
+                        <div class="data">
+                       <form action="datascript.php" method="POST">
+                               <button type="submit" name="data1000" id="data1000"  value="1000">1.5Gb <br> 30days<br> <strong>N1,000</strong></button>
+                               <button type="submit" name="data2000" id="data2000"  value="2000">3.5Gb <br> 30days<br> <strong>N2,000</strong> </button>
+                               <button type="submit" name="data3000" id="data3000"  value="3000">5Gb <br> 30days<br> <strong>N2,500</strong> </button>
+                               <br>
+                               <button type="submit" name="data4000" id="data4000"  value="4000">7Gb <br> 30days<br> <strong>N3,500</strong> </button>
+                               <button type="submit" name="data5000" id="data5000"  value="5000">9Gb <br> 30days<br> <strong>N4,000</strong> </button>
+                               <button type="submit" name="data6000" id="data6000"  value="6000">10Gb <br> 30days<br> <strong>N5,000</strong> </button>
+                            </form>
+                        </div>
+                        </div>
+                        <br />
+                        <br />
+
+
+                        </div>
                     </div>
                      
                     <input type="button" class="topupbutton" value="TOP ALL">
             </div>
+            
+            
             </div>
             </div>
             
