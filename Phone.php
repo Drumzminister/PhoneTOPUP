@@ -13,7 +13,7 @@
         <div class="header">
         <div class="row">
             <div class="col-lg-5"><img src="images/ham.png" alt="Hamburger" width="40" height="20">
-            <h5>Phone Top up</h5></div><div class="col-lg-7">
+            <h5>Phone Top up</h5></div><div class="col-lg-4"></div><div class="col-lg-3 inputbox" align="right">
             <input type="search" name="search" id="search" placeholder="Search">
             </div>
             </div>
